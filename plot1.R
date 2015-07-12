@@ -9,7 +9,7 @@ names(hpc_dt)[1] <- 'datetime'
 png('plot1.png', 480, 480)
 
 ## Create histogram
-hist(hpc_feb$Global_active_power, col = 'red', main = 'Global Active Power',
+hist(hpc_dt$Global_active_power, col = 'red', main = 'Global Active Power',
      xlab = 'Global Active Power (kilowatts)')
 
 dev.off()
